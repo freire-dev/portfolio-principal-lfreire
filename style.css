@@ -110,6 +110,10 @@
     color: #000;
 }
 
+#home .home .home-imagem {
+    margin: 0;
+}
+
 #home .home .home-imagem img{
     display: flex;
     align-items: center;
