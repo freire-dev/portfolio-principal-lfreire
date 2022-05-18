@@ -180,3 +180,50 @@
 #about .about-sections .about-text .about-download-cv:hover{
     color: #000;
 }
+
+/* Services */
+
+#services .services-title{
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+#services .services-title h3{
+    font-size: 35px;
+    text-decoration: #8DBF21 underline;
+}
+
+#services .services-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 3% 30px 3%;
+    gap: 50px;
+    text-align: center;
+}
+
+#services .services-cards .svc-card{
+    margin: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+#services .services-cards .svc-card ion-icon, h4, p{
+    background: rgba(0, 0, 0, 0.01);
+}
+
+#services .services-cards .svc-card ion-icon{
+    margin-bottom: 10px;
+    color: #3a5198;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+#services .services-cards .svc-card h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color:#8DBF21;
+}
