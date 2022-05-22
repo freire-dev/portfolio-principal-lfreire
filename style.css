@@ -302,3 +302,54 @@
     font-size: 40px;
 }
 
+/* Projetos */
+
+#projetos .projetos-title{
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+#projetos .projetos-title h3{
+    font-size: 35px;
+    text-decoration: #8DBF21 underline;
+}
+
+#projetos .projetos-card{
+    padding: 30px 3% 30px 3%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#projetos .projetos-list .projetos-card .projetos-img img{
+    margin: none;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid #8DBF21;
+}
+
+#projetos .projetos-list .projetos-card .projetos-details{
+    padding: 15px;
+}
+
+#projetos .projetos-list .projetos-card .projetos-details h4{
+    color: #8DBF21;
+    font-size: 20px;
+}
+
+#projetos .projetos-list .projetos-card .projetos-details button{
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    background: #8DBF21;
+    color: #253156;
+    font-weight: 600;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 2%;
+    transition: all 0.4s ease;
+}
