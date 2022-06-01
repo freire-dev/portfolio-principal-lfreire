@@ -350,6 +350,103 @@
     border: 2px solid #D9D9D9;
     border-radius: 10px;
     cursor: pointer;
-    padding: 2%;
+    padding: 3%;
     transition: all 0.4s ease;
 }
+
+/* Contato */
+
+#contato .contato-title{
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+#contato .contato-title h3{
+    font-size: 35px;
+    text-decoration: #8DBF21 underline;
+}
+
+#contato .contato-flex{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+    padding: 30px 9% 30px 9%;
+}
+
+#contato .contato-flex .contato-info h4{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#contato .contato-flex .contato-info{
+    margin: 0;
+}
+
+#contato .contato-flex .contato-info img{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 60%;
+    margin: none;
+}
+
+
+#contato .contato-flex form fieldset{
+    padding: 15px 60px;
+    border: 2px solid #8DBF21;
+    border-radius: 10px;
+}
+
+#contato .contato-flex form fieldset legend{
+    background: #8DBF21;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    color: #253156;
+    font-weight: 600;
+}
+
+#contato .contato-flex form fieldset p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#contato .contato-flex form fieldset input{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+}
+
+#contato .contato-flex form fieldset .contato-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 28px;
+}
+
+#btn-submit{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    background: green;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+
+#btn-reset{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    background: rgb(120, 0, 0);
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+
