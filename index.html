@@ -8,17 +8,23 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
     <title>.::LFreire - Portfolio::.</title>
 </head>
 <body>
+    <div id="icon-whatsapp" style="background: none;">
+        <a href="https://api.whatsapp.com/send?phone=5521991547929&text=Ol%C3%A1%2C%20Luan.%20Tudo%20bem%3F" target="_blank" style="background: none;">
+            <img src="./img/icons8-whatsapp-144.svg" style="background: none;"/>
+        </a>
+    </div>
     <nav id="menu">
         <div class="menu-links">
             <h3><a href="https://www.github.com/luanfreire25" target="_blank">Luan Freire</a></h3>
             <ul>
-                <li href="#" target="_blank">Sobre</li>
-                <li href="#" target="_blank">Serviços</li>
-                <li href="#" target="_blank">Projetos</li>
-                <li href="#" target="_blank">Contato</li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </div> 
     </nav>
@@ -28,8 +34,8 @@
                 Olá, meu nome é
                 <h1>LUAN FREIRE</h1>
                 <h5>Fullstack Developer</h5>
-                <button class="home-contrate" href="#" target="_blank">
-                    CONTRATAR-ME
+                <button class="home-contrate">
+                    <a href="#contato">CONTRATAR-ME</a>
                 </button>
             </div>
             <div class="home-imagem">
@@ -128,7 +134,11 @@
             <div class="svctec-imgtitle">
                 <h3>Tecnologias que utilizo</h3>
                 <img src="./img/service-img.svg"/>
-                <button href="#">SAIBA MAIS</button>
+                <button>
+                    <a href="https://www.linkedin.com/in/luan-freire-62b478201/" target="_blank">
+                        SAIBA MAIS
+                    </a>
+                </button>
             </div>
             <div class="svctec-tecnologias">
                 <div class="svc-card">
@@ -198,7 +208,9 @@
                         repellendus rerum facere molestiae magni voluptatum dignissimos id necessitatibus?<br>
                         Illo, eveniet possimus. Pariatur id voluptatibus quibusdam, maxime quaerat labore laborum?
                     </p>
-                    <button href="#">VISUALIZAR</button>
+                    <button href="#">
+                        <a href="https://www.consultoriodrpaulovianna.site/formulariocontato" target="_blank">VISUALIZAR</a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -220,14 +232,14 @@
                             Formulário
                         </legend>
                         <p>Nome</p>
-                            <input type="text" placeholder="Digite aqui..."/><br><br>
+                            <input type="text" placeholder="Digite aqui..." id="nome"/><br><br>
                         <p>Número/Telefone</p>
-                            <input type="phone" placeholder="Digite aqui..."/><br><br>
+                            <input type="phone" placeholder="Digite aqui..." id="numeroTel"/><br><br>
                         <p>Email</p>
-                            <input type="email" placeholder="Digite aqui..."/><br><br>
+                            <input type="email" placeholder="Digite aqui..." id="email"/><br><br>
                         <div class="contato-buttons">
                             <button type="reset" id="btn-reset">LIMPAR</button>
-                            <button type="submit" id="btn-submit">ENVIAR</button>
+                            <button onClick="pegarDadosForms()" id="btn-submit">ENVIAR</button>
                         </div>
                     </fieldset>
                 </form>
@@ -237,9 +249,9 @@
     <footer id="rodape">
         <h3>Desenvolvido por <span>Luan Freire</span></h3>
         <div class="social">
-            <ion-icon name="logo-instagram"></ion-icon>
-            <ion-icon name="logo-whatsapp"></ion-icon>
-            <ion-icon name="logo-github"></ion-icon>
+            <a href="https://www.instagram.com/freire.xyz/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://api.whatsapp.com/send?phone=5521991547929&text=Ol%C3%A1%2C%20Luan.%20Tudo%20bem%3F" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            <a href="https://www.github.com/luanfreire25" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
         </div>
     </footer>
 </body>

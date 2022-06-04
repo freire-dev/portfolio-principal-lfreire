@@ -7,6 +7,25 @@
     color: #D9D9D9;
     margin: 0 auto;
     font-family: 'Roboto Flex', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* WhatsApp button*/
+
+#icon-whatsapp{
+    position: fixed;
+    right: 30px;
+    bottom: 27px;
+    cursor: pointer;
+}
+
+#icon-whatsapp img{
+    width: 50px;
+    transition: all 0.3s ease;
+}
+
+#icon-whatsapp img:hover{
+    transform: scale(1.1);
 }
 
 /* Navbar */
@@ -43,15 +62,19 @@
 }
 
 #menu .menu-links li{
-    font-family: 'Ubuntu', sans-serif;
     color: #D9D9D9;
     margin: 0 15px 0 15px;
     list-style: none;
     cursor: pointer;
-    transition: all 0.3s ease;
 }
 
-#menu .menu-links li:hover{
+#menu .menu-links li a{
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+#menu .menu-links li a:hover{
     color: #8DBF21;
     transform: scale(1.05);
 }
@@ -91,17 +114,22 @@
 #home .home .home-apresentacao button{
     display: flex;
     align-items: center;
-    font-family: 'Arial', sans-serif;
-    font-size: 20px;
     margin-top: 20px;
     background: #8DBF21;
-    color: #253156;
-    font-weight: 600;
     border: 2px solid #D9D9D9;
     border-radius: 10px;
     cursor: pointer;
     padding: 5%;
     transition: all 0.4s ease;
+}
+
+#home .home .home-apresentacao button a{
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background: none;
+    color: #253156;
+    font-weight: 600;
 }
 
 #home .home .home-apresentacao button:hover{
@@ -271,6 +299,15 @@
     transition: all 0.4s ease;
 }
 
+#services .services-tecnology .svctec-imgtitle button a{
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background: none;
+    color: #253156;
+    font-weight: 600;
+}
+
 #services .services-tecnology .svctec-imgtitle button:hover{
     color: #000;
     transform: scale(1.05);
@@ -372,6 +409,15 @@
     cursor: pointer;
     padding: 3%;
     transition: all 0.4s ease;
+}
+
+#projetos .projetos-list .projetos-card .projetos-details button a{
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background: none;
+    color: #253156;
+    font-weight: 600;
 }
 
 #projetos .projetos-list .projetos-card .projetos-details button:hover{
